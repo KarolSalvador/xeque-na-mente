@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100%;
+  background-image: url("../img/fundo.jpg");
+  margin-bottom: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.container-img {
+  position: relative;
+}
+
+.container-img h1 {
+  position: absolute;
+  top: 80%; /* Mover o canto superior esquerdo do h1 para a metade da altura da div */
+  left: 50%; /* Mover o canto superior esquerdo do h1 para a metade da largura da div */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Ajustar o h1 para que o CENTRO dele fique no meio */
+  color: white; /* Para o texto aparecer bem sobre a imagem */
+  font-size: 3em; /* Um tamanho bom para o título */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container-img img{
+  height: 50%;
+  width: 60%;
+  border-radius: 2rem;
+}
+
+.menu {
+  max-width: 70%;
+  background: rgba(60, 60, 60, 0.9);
+  border-radius: 2rem;
+  margin: 20px auto;
+}
+
+.menu ul{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
+}
+
+.menu a{
+  color: white;
+  
+}
+
+.content {
+  max-width: 60%;
+  background: rgba(60, 60, 60, 0.9);
+  border-radius: 2rem;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.content h2 {
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.content h3 {
+  margin-bottom: 1rem;
+  font-size: 22px;
+}
+.content h4 {
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  font-size: 20px;
+}
+
+.content ul {
+  margin-bottom: 1rem;
+}
+
+.content img {
+  max-width: 50%;
+  margin-bottom: 1rem;
+
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+}
+
+button {
+  background-color: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  max-width: 70%;
+  background: rgba(60, 60, 60, 0.9);
+  border-radius: 2rem;
+  padding: 20px;
+  margin: auto;
+}
+
+
+.topo {
+  background: rgba(60, 60, 60, 0.9);
+  border-radius: 2rem;
+  padding: 20px;
+  margin: auto;
+  color: white;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.mostrarBotao {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s ease-in-out;
+}
+
