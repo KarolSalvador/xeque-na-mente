@@ -3,7 +3,7 @@ const voltarAoTopo = document.getElementById('voltarAoTopo');
 window.addEventListener('scroll', function() {
     console.log(window.scrollY);
 
-    if(window.scrollY >= 870) {
+    if(window.scrollY >= 800) {
         voltarAoTopo.classList.add('mostrarBotao');
 
     } else {
