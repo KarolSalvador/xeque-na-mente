@@ -39,6 +39,11 @@ xeque-na-mente/
 └── README.md
 
 ---
+## 📸 Captura de Tela
+
+![Xeque na Mente](https://i.postimg.cc/Y00J60wD/Captura-de-tela-2025-07-01-153445.png)
+
+---
 
 ## 📸 Preview
 
