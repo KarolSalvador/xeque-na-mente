@@ -1,6 +1,6 @@
 # ♟️ Xeque na Mente
 
-**Xeque na Mente** é uma página web desenvolvida durante o curso _"Front-End: Minha primeira página web!"_ da plataforma Alura. O projeto apresenta os fundamentos do xadrez de forma leve e acessível, com uma pegada visual moderna e foco em dicas mentais que vão além do jogo.
+**Xeque na Mente** é uma página web desenvolvida durante o curso _"Front-End: Minha primeira página web!"_ da plataforma Programaria. O projeto apresenta os fundamentos do xadrez de forma leve e acessível, com uma pegada visual moderna e foco em dicas mentais que vão além do jogo.
 
 ---
 
